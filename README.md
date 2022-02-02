@@ -11,3 +11,14 @@ if needed => npm audit --force
 Install Vue
 npm install vue@next
 ```
+
+## Git commands
+
+```
+git log // se commitsen
+git status // se om ditt tree är rent
+git checkout 'branch name'
+git checkout  HEAD~3 (för att flytta din head till en tidigare commit, exnligt exemplet flyttas din HEAD tre (3) steg bakåt)
+
+git merge 'branch name' ~
+```
