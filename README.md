@@ -20,5 +20,7 @@ git status // se om ditt tree är rent
 git checkout 'branch name'
 git checkout  HEAD~3 (för att flytta din head till en tidigare commit, exnligt exemplet flyttas din HEAD tre (3) steg bakåt)
 
-git merge 'branch name' ~
+git merge 'branch name'
+git commit --amend //Ändrar din senaste commit
+git rebase -i HEAD~3 // Cool command idk
 ```
